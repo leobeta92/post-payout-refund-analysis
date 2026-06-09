@@ -27,4 +27,4 @@ Key findings include:
 
 
 ## Dashboard
-An interactive dashboard that shows post-payout refund rate by vendor and marketing channel is available [here](https://datastudio.google.com/reporting/0e15439f-6fce-4626-8735-cd9371416df5).
+An interactive Data Studio (formerly Looker) dashboard that shows post-payout refund rate by vendor and marketing channel is available [here](https://datastudio.google.com/reporting/0e15439f-6fce-4626-8735-cd9371416df5).
