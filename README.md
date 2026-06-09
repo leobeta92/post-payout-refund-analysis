@@ -6,6 +6,7 @@ Provided were fact tables of refunds, payouts, and transactions. A dimensions ta
 
 ## Project Structure
 
+```
 post_payout_refund_analysis/
 ├── models/
 │   └── marts/
@@ -13,3 +14,4 @@ post_payout_refund_analysis/
 │       └── fct_ppre_recommendations.sql
 └── analysis/
     └── eda.sql
+```
