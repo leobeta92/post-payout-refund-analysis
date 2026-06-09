@@ -15,3 +15,16 @@ post_payout_refund_analysis/
 └── analysis/
     └── eda.sql
 ```
+
+## Report
+A full executive summary prepared for the stakeholder is available [here](https://drive.google.com/file/d/1XydEj3ZqQq5acLPnAKf_2PokZJY9EPG9/view?usp=drive_link).
+
+Key findings include:
+- 68% of total refunds to customers are requested after the payout was already paid to the vendor (PPRR = post-payout refund rate).
+  - This amounted to $1,173 USD in unrecoverable bank fees, and $34,456 USD in cash that needs to be credited from future payouts to corresponding vendors.
+- Refund requests from email orders had a 93% chance of occurring after payout was made to the vendor.
+- This behavior is concentrated among certain vendors. The PPRR ranges from 38% to 90% among vendors. The 15 vendors with the highest PPRR show an average of 80%, while the remaining 25 have an average of 59%.
+
+
+## Dashboard
+An interactive dashboard that shows post-payout refund rate by vendor and marketing channel is available [here](https://datastudio.google.com/reporting/0e15439f-6fce-4626-8735-cd9371416df5).

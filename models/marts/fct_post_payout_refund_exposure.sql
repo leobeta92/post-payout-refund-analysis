@@ -32,7 +32,7 @@ order by refund_after_payout_pct desc
     case
       when payout_date is null then "Not Yet Paid"
     END as not_yet_paid,
-    -- The calculation for the post-payout refund rate will occur in Data Studio.
+    -- The calculation for the requested post-payout refund rate will occur in Data Studio. The result from that calculation is included in the executive summary PDF.
     case
       when datetime_diff(payout_date,refund_date,minute) < 0 then "Refunded After Payout"
     END as refund_after_payout,
